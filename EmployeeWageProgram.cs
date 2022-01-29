@@ -1,10 +1,12 @@
 ﻿using System;
 
+namespace EmployeeWages
+
 public class EmployeeWageProgram
 {
 	public void Attendence()
 	{
-        const int PRESENT = 1, ABSENT = 0;
+        const int PRESENT = 1, ABSENT = 0, WAGE_PER_HOUR = 20, FULL_DAY_HOUR = 8;
         Random random = new Random();
         int check = random.Next(0, 2);
         if (check == PRESENT)
