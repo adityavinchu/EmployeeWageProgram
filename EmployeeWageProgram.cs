@@ -1,7 +1,7 @@
 ﻿using System;
 
 namespace EmployeeWages
-
+{
 public class EmployeeWageProgram
 {
 	public void Attendence()
@@ -19,6 +19,7 @@ public class EmployeeWageProgram
 		{
 			Console.WriteLine("Employee is Absent \n");
 		}
-		}
+		
 	}
+}
 }
