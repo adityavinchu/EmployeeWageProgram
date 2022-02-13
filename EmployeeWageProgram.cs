@@ -1,7 +1,7 @@
 ﻿using System;
 
 namespace EmployeeWages
-
+{
 public class EmployeeWageProgram
 {
     public void Attendence()
@@ -31,4 +31,5 @@ public class EmployeeWageProgram
         Console.WriteLine("The Monthly Wage Of the Employee is :{0} and their Total Working hours {1}", monthlywage, workinghour);
 
     }
+}
 }
